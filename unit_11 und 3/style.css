@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+  background-color: lightgrey;
+  color: #fff;
+  font-family: Helvetica;
+  background-image: url("images/equality.jpg");
+  background-repeat: repeat-x;
+ 
+}
+
+.background {
+  	width: 100vw;
+  	height: 100vh;
+  	background-image: url('images/equality.jpg');
+ 	background-repeat: no-repeat;
+ 	background-position: center center;
+  	background-size: cover;
+ 	position: fixed;
+
+}
+
+#second {
+	color: red;
+			
+}
+
+#header1 {
+		color: red;
+		margin-top: 150px;
+		margin-bottom: 150px;
+}
+
+#slogan {
+		margin-top: 50px;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin-bottom: 150px;
+		color: red;
+		text-align: left;
+		font-family: 'Sniglet';
+		font-weight: bold;
+		font-size: 40px;
+
+}
+
+.width-container {
+	}
+/* Create three equal columns that floats next to each other */
+
+.three-boxes {
+  	float: left;	
+  	width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    margin: auto;
+  	
+	}
+
+.clearfix:after {
+  	content: "";
+    display: table;
+    clear: both;	
+	}
+
+.ambition {
+	float: left;
+    width: 33.33%;
+}
+
+.office {
+	float: left;
+    width: 33.33%;
+}
+
+.event {
+	float: left;
+    width: 33.33%;
+}
+
+
+
+hr {
+  width: 200px;
+}
