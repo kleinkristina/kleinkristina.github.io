@@ -76,6 +76,7 @@ aside	{
 	margin-left: auto;
     margin-right: auto;
 }
+
 /* Testimonials - Three equal columns that floats next to each other */
 
 .homepage-second-section {
@@ -102,7 +103,7 @@ aside	{
     border-color: black;
 }
 
-.footer {
+#footer {
 	background-color: grey;
 }
 
