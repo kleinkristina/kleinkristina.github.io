@@ -1,34 +1,29 @@
 <!DOCTYPE html>
 <html>
-	<head></head>
-	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 <head>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 	<title>Probieren</title>
 </head>
-
 <body>
-	<div class="wrapper">
-	<header>
-		<h1>Logo</h1>
+	<header id="header">
+		<p class="logo">Logo</p>
 		<nav>
-		<aside class="nav">
-				<a href="#">Mission</a>
-				<a href="#">Werde Aktiv</a>
-				<a href="#">Blog</a>
-				<a href="#">Kontakt</a>
-				<a href="#">Shop</a>
-				<a href="#">Spenden</a>
-		</nav>	
-		</aside>		
-		<img id="background" src="images/spd_frauen.jpg" alt="Future is female" title="Future is female">
-		</header>
-
+			<a href="#">Mission</a>
+			<a href="#">Werde Aktiv</a>
+			<a href="#">Blog</a>
+			<a href="#">Kontakt</a>
+			<a href="#">Shop</a>
+			<a href="#">Spenden</a>
+		</nav>		
+	</header>
 <!--_German_stats_section_needs_to_be_adapted_to_German_figures-->
-
+	<section id="intro">
+		
+	</section>
 	<section id="thesis">
-		<h2> <span style="color:red">51% der Bevoelkerung</span> in Deutschland sind Frauen. In politischen Aemtern sind sie  <span style="color:red">dramatisch unterrepraesentiert.</span> </h2>
-	<img id="stats" src="images/2018_stats_from_CAWP.jpg" alt="Frauen in Politik" title="Statistics">
-	<h2> <span style="color:red">LOGO</span> baut eine Bewegung junger Frauen auf, die bereit sind, einen angemessenen Anteil poltischer Macht zu besitzen.</h2>
+		<h2><span style="color:red">51% der Bevoelkerung</span> in Deutschland sind Frauen. In politischen Aemtern sind sie  <span style="color:red">dramatisch unterrepraesentiert.</span></h2>
+		<img id="stats" src="images/2018_stats_from_CAWP.jpg" alt="Frauen in Politik" title="Statistics">
+		<h2><span style="color:red">LOGO</span> baut eine Bewegung junger Frauen auf, die bereit sind, einen angemessenen Anteil poltischer Macht zu besitzen.</h2>
 	</section>
 
 <!-- _Testimonials-slide_show_section-->
@@ -37,16 +32,16 @@
 		<div class="slideshow-container">
 			<div class="mySlides fade">
   				<div class="numbertext">1 / 3</div>
-  				<img src="images/cdu frauen.jpg" alt="CDU Frauen" style="width:100%">
+  				<img src="images/cdu frauen.jpg" alt="CDU Frauen">
   			</div>
-			<div class="mySlides fade">
+			<!--<div class="mySlides fade">
   				<div class="numbertext">2 / 3</div>
-  				<img src="images/woman with flower.jpg" alt="Frau Laudatio" style="width:100%">
+  				<img src="images/woman with flower.jpg" alt="Frau Laudatio">
   			</div>
 			<div class="mySlides fade">
   				<div class="numbertext">3 / 3</div>
-  				<img src="images/smile.jpg" alt="Frauen lachen" style="width:100%">
-  			</div>
+  				<img src="images/smile.jpg" alt="Frauen lachen">
+  			</div>-->
 		</div>
 		<div style="text-align:center">
   			<span class="dot"></span> 
@@ -58,23 +53,23 @@
 <!--_German Map section -->
 
 	<section id="map">
-		<h2 style="text-align:center"> 200 junge Frauen werden in 50 Kommunen in 2019 von LOGO ausgebildet.</h2>
+		<h2 style="text-align:center">200 junge Frauen werden in 50 Kommunen in 2019 von LOGO ausgebildet.</h2>
 		<figure> 
-			<figcaption style="text-align: center; color: red; margin-bottom: 15px;"> Klick auf ein Bundesland, um zu sehen, wo wir aktiv sind</figcaption>
+			<figcaption>Klick auf ein Bundesland, um zu sehen, wo wir aktiv sind</figcaption>
 			<img id="germany_map" src="images/German map.svg" alt="German Map">
 		</figure>
 	</section>
 
 <!--_Take Action section -->
 
-	<section id="aktiv">
-		<h2> <span style="color:black">Werde Aktiv</span></h2>
+	<section id="aktiv" class="clearfix">
+		<h2>Werde Aktiv</h2>
 		<div class="ambition">
-			<p><img src="https://d3n8a8pro7vhmx.cloudfront.net/ignitenational/pages/110/attachments/original/1462664889/declare-ambition.png?1462664889" alt="Zeige Ambition.png" style="width:100%"></p>
-			<p style="margin-bottom: 0;"><a href="declare_your_ambition"><img src="https://d3n8a8pro7vhmx.cloudfront.net/ignitenational/pages/110/attachments/original/1463713793/gray-hands.png?1463713793" alt="gray-hands.png" width="70"></a></p>
-			<p style="font-size: 1.8em; margin-bottom: 0; margin-right: 2"><a href="declare_your_ambition">Zeige Ambition</a></p>
-			<p><span style="color: white; background-color: #FFE2B8;">Ich moechte politisch aktiv werden oder ich moechte gern junge Frauen dabei unterstuetzen, politisch aktiv zu werden.</span></p>
-			<p style="background-color: #FFE2B8;"><a href="declare_your_ambition"><span>Mehr &gt;&gt;</span></a></p>
+			<img src="https://d3n8a8pro7vhmx.cloudfront.net/ignitenational/pages/110/attachments/original/1462664889/declare-ambition.png?1462664889" alt="Zeige Ambition.png">
+			<a href="#"><img src="https://d3n8a8pro7vhmx.cloudfront.net/ignitenational/pages/110/attachments/original/1463713793/gray-hands.png?1463713793" alt="gray-hands.png" width="70"></a>
+			<a href="#">Zeige Ambition</a>
+			<p style="color: white; background-color: #FFE2B8;">Ich moechte politisch aktiv werden oder ich moechte gern junge Frauen dabei unterstuetzen, politisch aktiv zu werden.</p>
+			<a href="#">Mehr &gt;&gt;</a>
 		</div>
 		<div class="office">
 			<p><img src="https://d3n8a8pro7vhmx.cloudfront.net/ignitenational/pages/110/attachments/original/1462664893/start-chapter.png?1462664893" alt="Gründe ein Uni-Chapter" style="width:100%"/></p>
@@ -90,39 +85,32 @@
 			<p><apan style="color: white; background-color: #FFE2B8;">Vernetze Dich mich Gleichgesinnten bei einem lokalen LOGOmeetup.</span></p>	
 			<p><span><a href="events">Mehr &gt;&gt;</a></span></p>
 		</div>
-		<div class="clearfix">
-		</div>
 	</section>
  	
  <!--_Join us section-->
 	 <section id="beteiligen">
 		<p style="font-size: 26px; color: white; text-align: center;"><strong>Join us!</strong> Engagiere Dich in einem Netzwerk von politisch aktiven Frauen.</p>
-		<form action="/action_page.php" style="border:1px solid #ccc">
-  			<div class="container">
-   				<h1>Beteilige Dich!</h1>
- 				 <p>Bitte ausfuellen, um den Newsletter zu bekommen.</p>
- 				  <hr>
-			<label for="email"><b>Vorname</b></label>
-		 	<input type="text" placeholder="Vorname" name="email" required>
-  			<label for="Nachname"><b>Nachname</b></label>
-   			<input type="text" placeholder="Nachname" name="email" required>
-  			<label for="E-Mail"><b>E-Mail</b></label>
-   			<input type="text" placeholder="E-Mail" name="email" required>
-    		<p>Bitte lese hier mehr zu unseren <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-			<div class="clearfix">
-   			<button type="submit" class="signupbtn">Ich beteilige mich</button>
-   			</div>
-		</form>		
+		<div class="container">
+			<h1>Beteilige Dich!</h1>
+			<p>Bitte ausfuellen, um den Newsletter zu bekommen.</p>
+			<form>
+				<label for="email">Vorname</label>
+				<input type="text" placeholder="Vorname" name="email" required>
+				<label for="Nachname"><b>Nachname</b></label>
+				<input type="text" placeholder="Nachname" name="email" required>
+				<label for="E-Mail"><b>E-Mail</b></label>
+				<input type="text" placeholder="E-Mail" name="email" required>
+				<p>Bitte lese hier mehr zu unseren <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+				<input type="submit" class="signupbtn" value="Ich beteilige mich">
+			</form>
+		</div>
 	</section>
 <!--_Footer Section-->	
 	<footer id="footer">
 		<p>Got questions? <a href="mailto:kleinkristina22@gmail.com">Email Me</a></p>
 		<p>For more information, go to <a href="http://www.examples.com">Here</a></p>
 		<p>Copyright</p>
-		<aside>
-			<p><a href="#">Go to top</a></p>
-		</aside>
+		<a href="#header">Go to top</a>
 	</footer>
-	</div>	
 </body>
 </html>
