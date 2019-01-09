@@ -30,12 +30,12 @@ nav a {
 }
 
 h1 {
-  font-family: 'Special Elite', cursive;
+  font-family: 'Thasadith', sans-serif;
   font-size: 80px;
   text-decoration: bold;
   text-align: center;
   color: white;
-  text-shadow: 5px 5px 4px black; 
+  text-shadow: 5px 5px 4px grey; 
   margin: 0 auto;
   padding-top: 8em;
   padding-bottom: 1.2em;
@@ -83,7 +83,7 @@ section {
 } 
 
 #header {
-  background-image: url('plenarsaal.jpg');
+  background-image: url(plenarsaal.jpg);
   min-height: 1300px;
   background-position: center;
   background-repeat: no-repeat;
