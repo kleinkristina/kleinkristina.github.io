@@ -47,7 +47,7 @@ h2 {
   font-size: 60px;
   font-weight: bold;
   text-align: center;
-  color: #82807F;
+  color: #3B3A39;
   margin: 0 auto;
   padding-top: 2.2em;
   padding-bottom: 1.2em;
@@ -59,7 +59,7 @@ h3 {
   font-size: 50px;
   font-weight: bold;
   text-align: center;
-  color: #82807F;
+  color: #3B3A39;
   margin: 0 auto;
   padding-top: 1.2em;
   padding-bottom: 1.2em;
@@ -71,7 +71,7 @@ p {
   font-size: 50px;
   font-weight: bold;
   text-align: center;
-  color: #82807F;
+  color: #3B3A39;
   margin: 0 auto;
   padding-top: 1.2em;
   padding-bottom: 1.2em;
@@ -125,7 +125,7 @@ section {
 }
 
 #three_column {
-	background-color: grey;
+	background-color: #3B3A39;
   padding: 20px;
   display: table;
   width: 100%;
@@ -198,4 +198,9 @@ section {
   .fa-twitter {
   background: #55ACEE;
   color: white;
+}
+
+@media only screen and (max-width: 1130px) {
+  
+
 }
