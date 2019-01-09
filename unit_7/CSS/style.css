@@ -83,7 +83,7 @@ section {
 } 
 
 #header {
-  background-image: url(plenarsaal.jpg);
+  background-image: url('Plenarsaal.jpg');
   min-height: 1300px;
   background-position: center;
   background-repeat: no-repeat;
