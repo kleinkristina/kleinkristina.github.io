@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<link rel="stylesheet" type="text/css" href="CSS/style.css">	
-		<title>make_it_even</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">	
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>make_it_even</title>
 	<style>@import url('https://fonts.googleapis.com/css?family=Cambay:400,700|Caveat|Give+You+Glory|Nanum+Gothic:400,700,800|Special+Elite|Roboto|Thasadith:400,700');
-	</style>
-		
+	</style>		
 </head>
 
 <body>
 	<header id="header"> 
 		<img id="logo" src="images/make_it_even_logo_flieder_schwarz.png" alt="logo" title="Logo">
-		<nav>
-		
-				
+		<nav>	
 				<a href="#">Spenden</a>
 				<a href="#">Shop</a>
 				<a href="#">Blog</a>
@@ -33,33 +32,18 @@
 
 	<h2><span style="color:red"; style="font-family:'Cambay', sans-serif;">"make it even</span> baut eine Bewegung junger Frauen auf, die bereit sind, einen angemessenen Anteil politischer Macht zu besitzen."</h2>
 	<img id="stats" src="images/Stats_Charts.jpg" alt="Frauen in Politik" title="Statistics">
-	<h2>"In 2020 bildet<span style="color:red"; style="font-family:'Cambay', sans-serif;"> make it even </span> 100 Frauen in 25 Kommunen aus."</h2>
+	<h2>"In 2020 bildet<span style="color:red"; style="font-family:'Cambay', sans-serif;"> make it even </span> 100 Frauen in 25 Kommunen aus. Und dann muss hier noch mehr hin wegen der Optik."</h2>
 	</section>
 
 <!-- _Testimonials-slide_show_section-->
-
-	<section id="testimonials">
-		<div class="slideshow-container">
-			<div class="mySlides fade">
-  				<div class="numbertext">1 / 3</div>
-  				<img src="images/cdu frauen.jpg" alt="CDU Frauen" class="responsive_testimonials_images">
-  			</div>
-			<div class="mySlides fade">
-  				<div class="numbertext">2 / 3</div>
-  				<img src="images/woman with flower.jpg" alt="Frau Laudatio" class="responsive_testimonials_images">
-  			</div>
-			<div class="mySlides fade">
-  				<div class="numbertext">3 / 3</div>
-  				<img src="images/smile.jpg" alt="Frauen lachen" class="responsive_testimonials_images">
-  			</div>
-		</div>
-		<div style="text-align:center">
-  			<span class="dot"></span> 
-  			<span class="dot"></span> 
-  			<span class="dot"></span> 
+	<section id="sliding_show">
+		<div class="fling-minislide">
+			<img src="images/woman with flower.jpg"  alt="woman_flower"/> 
+			<img src="images/cdu frauen.jpg" alt="cdu_frauen"/> 
+			<img src="images/smile.jpg" alt="smile"/> 
+			<img src="images/future is female.jpg" alt="future_is_female"/>
 		</div>
 	</section>
-
 <!--_German Map section -->
 
 	<section id="map">
@@ -72,7 +56,7 @@
 <!--_Take Action section -->
 
 	<section id="three_column" class="clearfix">
-		<h2><span style="color:white">Werde Aktiv</h2>
+		<h3><span style="color:white">Werde Aktiv</h3>
 		
 		<div id="action">
 			<div class="action_image"><img src="https://d3n8a8pro7vhmx.cloudfront.net/ignitenational/pages/110/attachments/original/1462664889/declare-ambition.png?1462664889" alt="Zeige Ambition.png" class="responsive">
@@ -116,28 +100,31 @@
  	
  <!--_Join us section-->
 	 <section id="beteiligen">
-		<h2>Beteilige Dich!</h2> 
 		<h3>Engagiere Dich in einem Netzwerk von politisch aktiven Frauen.</h3>
   			<div class="container">
  				 <p>Bitte ausf&uuml;llen, um den Newsletter zu bekommen.</p>
  				 <form>
+		 			<div class="form_top">
 		 			<input type="text" placeholder="Vorname" name="Vorname" required>
   					<input type="text" placeholder="Nachname" name="Nachname" required>
-   					<input type="text" placeholder="Postleitzahl" name="Postleizahl" required>
+   					</div <div class="form_middle">
+   					<div>
+   					<input type="text" placeholder="Postleitzahl" name="Postleizahl" required>	
    					<input type="text" placeholder="E-Mail" name="email" required>
-    				<p>Bitte lese hier mehr zu unseren <a href="#">Terms & Privacy</a>.</p>
-   					<input type="submit" class="signupbtn" value="Ich beteilige mich">
+   					</div>
+   					<input type="submit" id="signupbtn" value="Ich beteilige mich">
+   					<p>Hier findest Du mehr zu unseren <a href="#">Terms & Privacy</a>.</p>
    				</form>		
    			</div>		
 	</section>
-<!--_Footer Section-->	
-	<footer id="footer">
+<!--_Footer Section-->
+	<section id="footer">
 		<p>Got questions? <a href="mailto:kleinkristina22@gmail.com">Email Me</a></p>
 		<p>For more information, go to <a href="http://www.examples.com">Here</a></p>
 		<p>Copyright</p>
 		<a href="#" class="fa fa-facebook"></a>
 		<a href="#" class="fa fa-twitter"></a>
 		<p><a href="#">Go to top</a></p>
-	</footer>
+	</section>
 </body>
 </html>
