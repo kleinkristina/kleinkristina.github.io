@@ -2,49 +2,55 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 body	{
-	background-color: #F5F4F4;
-  font-family: 'Thasadith', sans-serif;
+	font-family: 'Special Elite', cursive;
 	font-size: 20px;
-	color: black;
+	color: #333;
 	line-height: 1.3;
-	text-align: left;
-  text-align: center;
 }
-
+header {
+    position: absolute;
+    background: none;
+    left: 0;
+    right: 0;
+}
 nav {
-	overflow: hidden;
-  
+	position: absolute;
+	top: 50%;
+	right: 1em;
+	transform: translateY(-50%);
 }
 
 nav a {
-	float: right;
-	font-size: 40px; 
-  color: white;
-  text-decoration: bold;
-  text-align: right;
-  padding: 30px 16px;
-  text-decoration: none;
+	font-family: 'Thasadith', sans-serif;
+	font-size: 40px;
+	/* color: white; */
+	text-decoration: bold;
+	text-align: right;
+	padding: 30px 16px;
+	text-decoration: none;
 }
 
 h1 {
   font-family: 'Thasadith', sans-serif;
-  font-size: 80px;
   text-decoration: bold;
   text-align: center;
   color: white;
-  text-shadow: 5px 5px 4px grey; 
-  margin: 0 auto;
-  padding-top: 8em;
-  padding-bottom: 1.2em;
-  width: 45%;
+  text-shadow: 5px 5px 4px grey;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 2px solid;
+  width: 20em;
+  font-size: 3em;
 }
 
 h2 {
-  font-family: 'Special Elite', cursive;
-  font-size: 60px;
+  font-size: 2em;
   font-weight: bold;
   text-align: center;
   color: #3B3A39;
@@ -68,7 +74,6 @@ h3 {
 
 p {
   font-family: 'Special Elite', cursive;
-  font-size: 50px;
   font-weight: bold;
   text-align: center;
   color: #3B3A39;
@@ -78,23 +83,23 @@ p {
 }
 
 section {
-	background-color:  #FFFFFF;
 	padding: 20px;
 } 
 
-#header {
-  background-image: url('Plenarsaal.jpg');
-  min-height: 1300px;
+#intro {
+  background-image: url('../images/Plenarsaal.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  z-index: -1;
+  height: 100vh;
 }
 
 #logo {
   margin-left: 30px;
   padding-left: 15px;
-  width: 10%; 
+  width: 10em;
   float: left;
 }
 
@@ -126,23 +131,18 @@ section {
 
 #three_column {
 	background-color: #3B3A39;
-  padding: 20px;
-  display: table;
-  width: 100%;
+	/* padding: 20px; */
+	/* width: 1200px; */
 }
 
 #action {
 	background-color: grey;
-  border: 1px black solid;
-  padding: 10px;
-  background-color: white;
-  border: 1px black solid;
-  float: left;
-  width: 30%;
-  text-align: center; 
-  margin: 10px;
-  display: table-cell;
-  font-family: 'Cambay' 700, sans-serif;
+	padding: 10px;
+	background-color: white;
+	float: left;
+	width: 32.33%;
+	text-align: center;
+	margin: .5%;
 }
 
 .responsive {
@@ -152,10 +152,10 @@ section {
 
 .link_action {
 	font-family: 'Special Elite', cursive;
-  font-size: 60px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
 	color: red;
 }
 
