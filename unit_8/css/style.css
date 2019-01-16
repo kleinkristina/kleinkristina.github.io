@@ -361,8 +361,16 @@ form input {
 #action {
   /*background-color: white; */
   float: none;
-  width: 95%;
+  width: 100%;
   font-size: 1.4em;
   margin-bottom: 3em;
-}
+  border-bottom: 1px solid white;
+  }
+  p {
+    margin-bottom: 1.2em;
+  }
+
+  .fling-minislide {
+  display: none;
+  }
 }
