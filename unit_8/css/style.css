@@ -304,14 +304,12 @@ form input {
   }
 }
 
-
 @media only screen and (max-width: 600px) {
   body {
     font-size: 11px;
   }
   nav a:not(:first-child) {display: none;}
-
-}
+ }
   @media screen and (max-width: 600px) {
   nav.responsive {position: relative;}
   }
@@ -364,13 +362,13 @@ form input {
   width: 70%; 
   }
 
-.fling-minislide {
+  .fling-minislide {
   width: auto;
   margin-right: 1em
   margin-left: 1em;
-}
+  }
 
-#action {
+  #action {
   /*background-color: white; */
   float: none;
   width: 100%;
@@ -378,8 +376,14 @@ form input {
   margin-bottom: 3em;
   border-bottom: 1px solid white;
   }
+  
   p {
     margin-bottom: 1.2em;
+  }
+
+  #logo {
+    margin-left: 1em;
+    width: 30%;
   }
 
   #sliding_show {
