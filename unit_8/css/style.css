@@ -58,7 +58,7 @@ h2 {
   margin: 0 auto;
   padding-top: 3.2em;
   padding-bottom: 3.2em;
-  width: 30%;
+  width: 40%;
 }
 
 h3 {
@@ -92,6 +92,10 @@ p {
   position: relative;
   z-index: -1;
   height: 80vh;
+}
+
+.show_on_mobile {
+  display: none}
 }
 
 #logo {
@@ -258,7 +262,7 @@ form input {
     margin-left: 1em;
   }
   #stats  {
-  width: auto;
+  width: 100%;
  }
   .fling-minislide {
   width: auto;
@@ -301,7 +305,6 @@ form input {
 }
 
 
-
 @media only screen and (max-width: 600px) {
   body {
     font-size: 11px;
@@ -325,7 +328,7 @@ form input {
   background-size: cover;
   position: relative;
   z-index: -1;
-  height: 40vh;
+  height: 60vh;
   }
   
   .full_text {
@@ -344,13 +347,22 @@ form input {
     padding-top: 2em;
     padding-bottom: .5em;
   }
-  #stats  {
+  
+  .hide_on_mobile  {
   display: none;
  }
 
+  .show_on_mobile {
+    display: inline-block;
+  }
+
+  .show_on_mobile img {
+    display: block;
+  }
+
   #germany_map {
   width: 70%; 
-}
+  }
 
 .fling-minislide {
   width: auto;
@@ -370,7 +382,6 @@ form input {
     margin-bottom: 1.2em;
   }
 
-  .fling-minislide {
-  display: none;
+  #sliding_show {
+    display: none;
   }
-}
