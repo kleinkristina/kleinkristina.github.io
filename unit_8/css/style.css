@@ -353,7 +353,7 @@ form input {
  }
 
   .show_on_mobile {
-    display: inline-block;
+    display: block;
   }
 
   .show_on_mobile img {
