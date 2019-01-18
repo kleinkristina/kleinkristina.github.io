@@ -107,18 +107,18 @@ p {
 
 #stats	{
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 4em;
-  margin-top: 4em;
-  width: 80%;
+  margin: auto 4em;
+  width: 100%;
   border-style: solid;
-  border-color: white
+  border-color: black;
  }
 
 .charts {
-  max-width: 100%;
+  width: 100%;
   float: left;
+}
+
+.charts-img {
 }
 
 #germany_map	{
