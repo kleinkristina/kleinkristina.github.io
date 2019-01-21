@@ -211,6 +211,11 @@ form input {
   height: 0;
 }
 
+#beteiligen {
+  /* border-style: solid;
+  border-color: .5px #3B3A39; */
+  text-align: center;
+}
 #signupbtn {
   background-color: red;
   color: white;
