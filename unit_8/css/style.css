@@ -57,7 +57,7 @@ h2 {
   color: #3B3A39;
   margin: 0 auto;
   padding-top: 2.2em;
-  padding-bottom: 3.2em;
+  padding-bottom: 2.2em;
   width: 50%;
   line-height: 150%;
 }
@@ -133,10 +133,10 @@ form input {
 }
 
 #germany_map	{
-	display: block;
+	/*display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%; 
+  width: 40%; */
 }
 
 .fling-minislide {

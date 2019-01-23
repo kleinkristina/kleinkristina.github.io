@@ -33,6 +33,30 @@
 		</div>
 		<div id="stats" class="clearfix">	
 			<h2><span style="color:red"; style="font-family:'Cambay', sans-serif;">"things to consider</span> baut eine Bewegung junger Frauen auf, die bereit sind, einen angemessenen Anteil politischer Macht zu besitzen."</h2>
+			<div id="piechart"></div>
+			  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
+			<script type="text/javascript">
+			// Load google charts
+			google.charts.load('current', {'packages':['corechart']});
+			google.charts.setOnLoadCallback(drawChart);
+
+			// Draw the chart and set the chart values
+			function drawChart() {
+  			var data = google.visualization.arrayToDataTable([
+  			['Task', 'Hours per Day'],
+  			['Männer', 69],
+  			['Frauen', 31]
+			]);
+
+  			// Optional; add a title and set the width and height of the chart
+ 			 var options = {'title':'Parlamentarierinnen im Bundestag', 'width':550, 'height':400};
+
+ 			 // Display the chart inside the <div> element with id="piechart"
+  			var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  			chart.draw(data, options);
+			}
+		</script>
+
 			<div class="charts">
 				<img class="charts-img" src="images/charts_engagement_1.png" alt=Parliamentarierinnen" title="Statistics">
 				<img class="charts-img" src="images/charts_engagement_2.png" alt="Parliamentarierin	nen" title="Statistics">
@@ -58,10 +82,31 @@
 <!--_German Map section -->
 
 	<section id="map">
-		<figure> 
-			<h2> Klick auf ein Bundesland, um zu sehen, wo wir aktiv sind.</h2>
-			<img id="germany_map" src="images/German map.svg" alt="German Map">
-		</figure>
+		<h2> Klick auf ein Bundesland, um zu sehen, wo wir aktiv sind.</h2>
+		<iframe src="https://createaclickablemap.com/map.php?id=78084&maplocation=germany&online=true" width="1300" height="758" style="border: none;"></iframe>
+		<script>if (window.addEventListener){ window.addEventListener("message", function(event) { if(event.data.length >= 22) { if( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } else if (window.attachEvent){ window.attachEvent("message", function(event) { if( event.data.length >= 22) { if ( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } 
+		</script>
+			<style>ul.map li { float: left; margin: 0 25px 0 0px; width: 120px; border: 0px solid; height: 45px; padding-left: 6px; } ul.map { list-style: square url(https://createaclickablemap.com/li-arrow.png) !important; } ul.map li a{ margin: 0;padding: 0; text-decoration:underline; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#4591b1; } ul.map li a:hover{ text-decoration:none; color:#214b6e;} .linkBack{ display:block; width:130px; position: relative; bottom: 0px; left: 660px; font-family: Arial,Helvetica,sans-serif; font-size: 10px; font-style:italic; color:#666666;} .linkBack a {color:#666666;}.linkBack a:hover{color:#666666;text-decoration: none;} 
+			</style>
+				<ul class="map">
+					<li><a href="#" target="_top">Baden-Württemberg</a></li>
+					<li><a href="#" target="_top">Bayern</a>
+					</li>
+					<li><a href="#" target="_top">Berlin</a></li>
+					<li><a href="#" target="_top">Brandenburg</a></li>
+					<li><a href="#" target="_top">Bremen</a></li>
+					<li><a href="&lt;a href=&quot;#&quot;&gt;Hamburg&lt;/a&gt; " target="_top">Hamburg</a></li>
+					<li><a href="#" target="_top">Hessen</a></li>
+					<li><a href="&lt;a href=&quot;#&quot;&gt;Mecklenburg-Vorpommern&lt;/a&gt; " target="_top">Mecklenburg-Vorpommern</a></li>
+					<li><a href="#" target="_top">Niedersachsen</a></li>
+					<li><a href="#" target="_top">Nordrhein-Westfalen</a></li>
+					<li><a href="#" target="_top">Rheinland-Pfalz</a></li>
+					<li><a href="#" target="_top">Saarland</a></li>
+					<li><a href="#" target="_top">Sachsen</a></li>
+					<li><a href="#" target="_top">Sachsen-Anhalt</a></li>
+					<li><a href="&lt;a href=&quot;#&quot;&gt;Schleswig-Holstein&lt;/a&gt; " target="_top">Schleswig-Holstein</a></li>
+					<li><a href="#" target="_top">Thüringen</a></li>
+				</ul>
 	</section>
 
 <!--_Take Action section -->
