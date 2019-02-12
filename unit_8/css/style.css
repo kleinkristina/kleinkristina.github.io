@@ -413,12 +413,10 @@ form input {
   height: 48em;
   border: 1px solid red;
   padding: 1em;
-  
+
 }
 
   #iframe-container {
-  width: 90em; 
-  height: 55em; 
   overflow: hidden; 
   position: relative;
   top: 50%;
