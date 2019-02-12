@@ -412,8 +412,20 @@ form input {
   width: 81em;
   height: 48em;
   border: 1px solid red;
+  padding: 1em;
+  
 }
 
+  #iframe-container {
+  width: 90em; 
+  height: 55em; 
+  overflow: hidden; 
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  border: 1px solid green;
+}
   .fling-minislide {
   width: auto;
   margin-right: 1em
