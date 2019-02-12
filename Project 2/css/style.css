@@ -15,7 +15,7 @@ header {
     background: white;
     left: 0;
     right: 0;
-    	opacity: 0.5;
+    opacity: 0.5;
 }
 nav {
 	position: absolute;
@@ -34,6 +34,12 @@ nav a {
 	text-decoration: none;
 
 }
+
+h2 {
+	font-family: 'Special Elite', cursive;
+	font-size: 2.5em;
+}
+
 #logo {
   width: 10em;
   float: left;
@@ -51,3 +57,25 @@ nav a {
   z-index: -1;
   height: 80vh;
 }
+
+#three_column {
+	background-color: #3B3A39;
+  	margin: 2em auto;
+  	border-style: solid;
+  	border-color: .5px #3B3A39;
+	/* padding: 20px; */
+	/* width: 1200px; */
+}
+
+.these {
+	/*background-color: white; */
+	float: left;
+	width: 32.33%;
+	text-align: center;
+  	border-color: 1px white solid;
+	border-style: solid;
+  	border-color: .5px #3B3A39;
+  	float: left;
+	width: 32.33%;
+	text-align: center;
+	}

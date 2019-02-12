@@ -114,11 +114,6 @@ form input {
   padding-left: 1em;
 }
 
-#stats	{
-	display: block;
-  width: 100%;
- }
-
 .charts {
   float: left;
   width: 100%;
@@ -132,11 +127,32 @@ form input {
   height: 20%;
 }
 
-#germany_map	{
-	/*display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%; */
+#map	{
+  border-style: solid;
+  border-color: .5px #3B3A39;
+
+}
+
+#iframe-container {
+  width: 90em; 
+  height: 55em; 
+  overflow: hidden; 
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  border: 1px solid green;
+}
+
+#iframe-container iframe {
+  position: absolute;
+  width: 81em;
+  height: 48em;
+  top: 1em;
+  left: 3em;
+  right: 3em;
+  bottom: 1em
+  border: 1px solid red;
 }
 
 .fling-minislide {
@@ -278,8 +294,14 @@ form input {
   margin-right: 1em
   margin-left: 1em;
   }
+  #map {
+    margin-right: 1em
+    margin-left: 1em;
+    text-align: left;
+  }
 }
 
+  
 @media only screen and (max-width: 900px) {
    body {
     font-size: 11px;
@@ -287,6 +309,17 @@ form input {
    #stats {
     /*display: none;*/
   }
+
+  #iframe-container iframe {
+  position: absolute;
+  width: 81em;
+  height: 48em;
+  top: 20px;
+  left: 50px;
+  right: 50px;
+  bottom: 20px;
+  border: 1px solid red;
+}
 
 @media only screen and (max-width: 768px) {
   body {
@@ -370,9 +403,16 @@ form input {
     display: block;
   }
 
-  #germany_map {
-  width: 70%; 
+  #map {
+  max-width: 100%;
   }
+
+  #iframe-container iframe {
+  position: absolute;
+  width: 81em;
+  height: 48em;
+  border: 1px solid red;
+}
 
   .fling-minislide {
   width: auto;
