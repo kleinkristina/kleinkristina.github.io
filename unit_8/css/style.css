@@ -156,7 +156,8 @@ form input {
 }
 
 .fling-minislide {
-  width: 90em; height: 35em; 
+  width: 90em; 
+  height: 35em; 
   overflow: hidden; 
   position: relative;
   top: 50%;
