@@ -1,0 +1,15 @@
+var num = 30;
+console.log(num);
+var num = 5.75;
+console.log(num);
+var divisor = 20;
+var divident = 8;
+var myRemainder = 20/8;
+console.log(myRemainder);
+var first = "Hello";
+var second = "World";
+var string = "Hello" + " World";
+console.log(string);
+var favoritefood = "Pizza";
+favoritefood = "Tacos";
+console.log(favoritefood);

@@ -1,26 +1,20 @@
-=== Graphy ===
-Contributors: Themegraphy
-Requires at least: WordPress 4.1
-Version: 2.3.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: one-column, two-columns, right-sidebar, custom-colors, custom-header, custom-menu, editor-style, featured-images, full-width-template, microformats, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
 
-== Description ==
-Graphy is a blog-oriented WordPress theme designed with great attention given to the beauty of the typography. Made using mobile-first responsive web design, even when your site is viewed on a smartphone or tablet there will be no negative impact on the beautiful typography.
+What is a nested loop?
 
-For more information about Graphy please go to http://themegraphy.com/wordpress-themes/graphy/
+Which kind of loop is based on a conditional statement: while loops or for loops?
 
-== Installation ==
+- A nested loop is a loop that occurs within another loop, structurally similar to nested if  statements. The program first encounters the outer loop, executing its first iteration. This first iteration triggers the inner, nested loop, which then runs to completion. Then the program returns back to the top of the outer loop, completing the second iteration and again triggering the nested loop. Again, the nested loop runs to completion, and the program returns back to the top of the outer loop until the sequence is complete or a break or other statement disrupts the process.
 
-1. In the dashboard, go to Appearance -> Themes and click the 'Add New' button.
-2. Click the 'Upload Theme' button.
-3. Choose 'graphy.zip' file and click 'Install Now' button.
-4. Click the 'Activate' button.
-5. Go to http://themegraphy.com/documents/graphy/ for a guide on how to customize this theme.
-6. Navigate to Appearance > Customize in your admin panel and customize to taste.
+When you want to iterate a specific number of times, would you typically use a while loop or a for loop?
 
-== Copyright ==
+- range() is used to control how many times the loop will be repeated.
+
+Is it possible to loop through a string one letter at a time? What is the example given in the article?
+
+- 
+Extrapolate from what you learned in the articles: Do you think a for loop be nested inside a while loop? Why or why not?
+
+- Yes. You can use one or more loop inside any another while, for or do..while loop.
 
 Graphy WordPress Theme, Copyright 2014-2018 Themegraphy
 Graphy is distributed under the terms of the GNU GPL
